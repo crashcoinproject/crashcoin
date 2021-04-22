@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# Welcome to the CrashCoin Project
 
-You can use the [editor on GitHub](https://github.com/crashcoinproject/crashcoin/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+CrashCoin is a digital ERC-20 token based on the Ethereum blockchain which aims at providing a valuable digital asset in times of crypto market uncertainty. We developed this project bearing in mind that confidence in its value must be total and unalterable.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+CrashCoin (CRASC) is a coin which has a limited total supply of 50 millions units. **However**, each transfer of CRASC triggers a BTC/USD price check. If the price goes below 50,000 USD, each CRASC holder is eligible to the double of the CRASC he owns and will obtain them by direct transfer in the course of his next transaction. If the BTC/USD price goes below 40,000 USD, same process occurs again and every bearer will have its CRASC doubled in the course of his next transaction.
 
-### Markdown
+This goes on and on until the BTC/USD price falls below 10,000 USD. This leads to a total theoretical supply of CRASH of 1,600,000,000 if the Bitcoin price was ever to crash that much.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# FAQ
 
-```markdown
-Syntax highlighted code block
+## How can I store CrashCoins?
 
-# Header 1
-## Header 2
-### Header 3
+You can use any ERC-20 compatible wallet such as [Metamask](https://metamask.io/). Please be aware that the only valid contract reference for CrashCoin is **0x37783c524c3cc813fdb77963ece5ebe2d2501ca9**
 
-- Bulleted
-- List
+## How can I obtain my additional coins if the BTC/USD price drops?
 
-1. Numbered
-2. List
+Your eligible coins will be transfered to you on your next transaction using CRASC. If you never use CRASC you can always send a few to yourself in order to trigger the bonus coins transfer.
 
-**Bold** and _Italic_ and `Code` text
+## How do you ensure that the CrashCoin value remains stable?
 
-[Link](url) and ![Image](src)
-```
+The price drop events (below 50k, 40k, 30k, 20k, 10k) can only be triggered once. Thus if the BTC/USD price is fluctuating or going up again it will not trigger an additional event. Coins are strictly limited to a maximal theoretical supply of 1,600,000,000 CRASC - but for now only 50,000,000!
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## How can I make sure the contract is reliable?
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/crashcoinproject/crashcoin/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+We made the choice to publish the contract source code on our Github page and the contract is also validated on Etherscan: [click here to check](https://etherscan.io/address/0x37783c524c3cc813fdb77963ece5ebe2d2501ca9)
