@@ -25,3 +25,11 @@ The price drop events (below 50k, 40k, 30k, 20k, 10k) can only be triggered once
 ## How can I make sure the contract is reliable?
 
 We made the choice to publish the contract source code on our Github page and the contract is also validated on Etherscan: [click here to check](https://etherscan.io/address/0x37783c524c3cc813fdb77963ece5ebe2d2501ca9)
+
+# Technical specifications
+
+- Initial supply of 50,000,000 coins to be sold through exchanges and platforms.
+
+- The transfer function determines whether or not the sender is eligible to the different bonuses (50k, 40k, 30k, 20k, 10k) and proceeds to the transfer if so
+
+- The CrashCoin relies on ChainLink to obtain the BTC/USD quotation (@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol)
