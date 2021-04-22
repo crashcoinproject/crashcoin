@@ -4,7 +4,7 @@ The official CrashCoin (CRASC token 0x37783c524c3cc813fdb77963ece5ebe2d2501ca9)
 
 CrashCoin is a digital ERC-20 token based on the Ethereum blockchain which aims at providing a valuable digital asset in times of crypto market uncertainty. We developed this project bearing in mind that confidence in its value must be total and unalterable.
 
-CrashCoin (CRASC) is a coin which has a limited total supply of 50 millions units. **However**, each transfer of CRASC triggers a BTC/USD price check. If the price goes below 50,000 USD, each CRASC holder is eligible to the double of the CRASC he owns and will obtain them by direct transfer in the course of his next transaction. If the BTC/USD price goes below 40,000 USD, same process occurs again and every bearer will have its CRASC doubled in the course of his next transaction.
+CrashCoin (CRASC) is a coin which has a limited total supply of 50 million units. **However**, each transfer of CRASC triggers a BTC/USD price check. If the price goes below 50,000 USD, each CRASC holder is eligible to the double of the CRASC he owns and will obtain them by direct transfer in the course of his next transaction. If the BTC/USD price goes below 40,000 USD, same process occurs again and every bearer will have its CRASC doubled in the course of his next transaction.
 
 This goes on and on until the BTC/USD price falls below 10,000 USD. This leads to a total theoretical supply of CRASC of 1,600,000,000 if the Bitcoin price was ever to crash that much.
 
